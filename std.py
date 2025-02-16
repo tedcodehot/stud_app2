@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler,LabelEncoder
 
 
 def load_model():
-    with open("/home/teddy/Music/Java/new.ipynb/stud_Per4/student_per3.joblib","rb") as file:
+    with open("student_per3.joblib","rb") as file:
         model,scaler,le = pickle.load(file)
     return model,scaler,le
 
